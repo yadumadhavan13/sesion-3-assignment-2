@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.y.vibgyorbuttons.MainActivity">
+
+    <Button
+        android:id="@+id/redbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="RED"
+        android:background="#ff0000"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/orangebutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ORANGE"
+        android:background="#ffa500"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/yellowbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="YELLOW"
+        android:background="#ffff00"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/greenbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="GREEN"
+        android:background="#008000"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/bluebutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BLUE"
+        android:background="#0000ff"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/indigobutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="INDIGO"
+        android:background="#4b0082"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/violetbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="VIOLET"
+        android:background="#ee82ee"
+        android:layout_weight="1"/>
+
+</LinearLayout>
